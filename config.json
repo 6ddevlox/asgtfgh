@@ -1,0 +1,117 @@
+{
+  "embedColor": "#3b82f6",
+  "botName": "RATZ BOT",
+  "gameName": "RATZ",
+  "welcomeChannelName": "welcome",
+  "rulesChannelName": "rules",
+  "announcementChannelName": "announcements",
+  "levelUpChannelId": null,
+  "logChannelId": null,
+  "verifiedRoleId": null,
+  "unverifiedRoleId": null,
+  "memberRoleId": null,
+  "muteRoleId": null,
+  "staffRoleIds": [],
+  "ticketCategoryId": null,
+  "ticketSupportRoleId": null,
+  "verificationChannelId": null,
+  "levels": {
+    "enabled": true,
+    "xpPerMessage": 15,
+    "xpCooldownSeconds": 60,
+    "minMessageLength": 3
+  },
+  "antiRaid": {
+    "enabled": true,
+    "joinThreshold": 8,
+    "joinWindowSeconds": 12,
+    "minAccountAgeDays": 3,
+    "action": "kick",
+    "lockdownDurationMinutes": 10
+  },
+  "autoMod": {
+    "enabled": true,
+    "blockInvites": true,
+    "blockExcessiveCaps": true,
+    "capsThreshold": 0.7,
+    "minCapsLength": 12,
+    "maxMentions": 5,
+    "maxEmojis": 12,
+    "spamThreshold": 5,
+    "spamWindowSeconds": 7,
+    "toxicityWords": [
+      "nigger",
+      "nigga",
+      "faggot",
+      "retard",
+      "kys",
+      "kill yourself",
+      "rape",
+      "rapist",
+      "pedo",
+      "paedo",
+      "child porn",
+      "cp"
+    ],
+    "warnBeforeMute": true,
+    "muteDurationMinutes": 10,
+    "blockNSFWLinks": true,
+    "blockSuspiciousAttachments": true
+  },
+  "voiceMod": {
+    "enabled": true,
+    "autoJoin": true,
+    "leaveWhenEmptySeconds": 8,
+    "joinSpamThreshold": 6,
+    "joinSpamWindowSeconds": 15
+  },
+  "warns": {
+    "maxWarnsBeforeTimeout": 3,
+    "timeoutMinutes": 30,
+    "maxWarnsBeforeKick": 5
+  },
+  "verification": {
+    "enabled": false,
+    "requireButton": true
+  },
+  "altDetection": {
+    "enabled": true,
+    "minAccountAgeDays": 3,
+    "similarNameCheck": true,
+    "flagOnly": false
+  },
+  "activity": {
+    "trackMessages": true
+  },
+  "tempVoice": {
+    "enabled": true,
+    "triggerChannelId": null,
+    "categoryId": null,
+    "nameTemplate": "{user}'s VC"
+  },
+  "suggestions": {
+    "channelId": null,
+    "staffRoleId": null
+  },
+  "sticky": {},
+  "messageLogChannelId": null,
+  "staffAppChannelId": null,
+  "lfg": {
+    "roleId": null
+  },
+  "starboardChannelId": null,
+  "starboardMinStars": 3,
+  "memberCountChannelId": null,
+  "boostChannelId": null,
+  "welcomeDm": true,
+  "countingChannelId": null,
+  "autoRespond": true,
+  "channelModes": {},
+  "economy": {
+    "enabled": true,
+    "dailyAmount": 100,
+    "workMin": 25,
+    "workMax": 75
+  },
+  "levelRoles": {}
+}
